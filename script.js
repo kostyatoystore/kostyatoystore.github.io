@@ -11,17 +11,6 @@ let plane = document.getElementById('plane');
 let logo = document.getElementById('logo');
 let body = document.body;
 
-
-// let coordin = firstBurgerLink.getBoundingClientRect().top;
-
-// function end(){
-//    if(burgerMenu.getBoundingClientRect().left = 0){
-//        firstBurgerLink.style.transform = "0";
-//    }
-// }
-
-// когда октрывается бургер меню ссылки вылетают по очереди, когда спереди идущая дошла до левого края
-
 burgerBtn.addEventListener('click', () =>{
     burgerBtn.classList.toggle("open");
     burgerMenu.classList.toggle("open");

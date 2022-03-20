@@ -36,8 +36,3 @@ plusToBusket.addEventListener('click', () => {
         plusToBusket.disabled = 'true'
     }
 })
-
-// offsetX: 1164
-// offsetY: 1152
-// pageX: 1164
-// pageY: 1151

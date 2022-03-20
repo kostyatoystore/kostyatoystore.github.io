@@ -3,7 +3,6 @@
 
 body{
     position: relative;
-    /* transition: all .2s linear !important; */
 }
 
 .logo{
@@ -11,19 +10,15 @@ body{
     transition: all .3s linear;
 }
 
-header > .wrappers{
-    height: 50px;
-}
-
 .burger_btn{
     background: transparent;
-    width: 18px;
+    width: 23px;
     display: none;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 2px;
-    row-gap: 2px;
+    column-gap: 3px;
+    row-gap: 3px;
     position: absolute;
     z-index: 20;
     right: 16px;
@@ -31,8 +26,8 @@ header > .wrappers{
 }
 
 .burger_btn > .burger_line{
-    width: 4px;
-    height: 4px;
+    width: 5px;
+    height: 5px;
     background-color: #111111;
     opacity: 1;
     transition: all .3s linear;
@@ -106,48 +101,6 @@ header > .wrappers{
 /* ============================= BURGER ====================== */
 
 /* ============================= popup ====================== */
-
-/* .popup{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    backdrop-filter: blur(150px);
-    top: 70px;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.2s linear;
-    z-index: 20;
-}
-
-.popup.open{
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.2s linear;
-}
-
-.popup_body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
-    text-align: center;
-}
-
-.popup_content{
-    width: 80vw;
-    background-color: #A5C926;
-    padding: 45px;
-    position: relative;
-    border-radius: 16px;
-}
-
-.popup_txt{
-    font-size: 16px;
-    color: #FFFFFF;
-} */
-
 
 .pop_up1,
 .pop_up2{
@@ -262,6 +215,10 @@ header > .wrapper{
     fill: rgb(72, 255, 0);
     transform: translateY(-2px);
     transition: all .2s linear;
+}
+
+.logo{
+    font-size: 20px;
 }
 
 /* ============================= under_header ====================== */
