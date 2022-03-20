@@ -641,7 +641,7 @@
     .stuffed_toys_cards {
         flex-wrap: wrap;
         justify-content: space-around;
-        row-gap: 30px;
+        row-gap: 60px;
     }
 
     .our_story{
@@ -882,7 +882,7 @@
     .stuffed_toys_cards {
         flex-wrap: wrap;
         justify-content: space-around;
-        row-gap: 30px;
+        row-gap: 60px;
     }
 
     .our_story{
